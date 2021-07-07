@@ -4,15 +4,21 @@
                 width: 300px;
                 height: 100px;
                 background-color: yellow;
-                -ms-transform: translate(50px,100px);
-                transform: translate(50px,100px);
-
+                
             }
             div#mydiv1{
-                -ms-transform: rotate(-20deg);
-                transform: rotate(-20deg);
+                -ms-transform: scale(5,5);
+                transform: scale(.5,.5);
             }
             div#mydiv2{
-                -ms-transform: rotate(20deg);
-                transform: rotate(20deg);
+                -ms-transform: skewX(20deg);
+                transform: skewX(20deg);
+            }
+            div#mydiv3{
+                -ms-transform: skewY(20deg);
+                transform: skewY(20deg);
+            }
+            div#mydiv4{
+                -ms-transform: skew(20deg);
+                transform: skew(20deg);
             }
